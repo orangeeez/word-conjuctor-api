@@ -1,0 +1,10 @@
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\bin\Debug\netcoreapp2.0\ConjuctorAPI.deps.json
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\bin\Debug\netcoreapp2.0\ConjuctorAPI.runtimeconfig.json
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\bin\Debug\netcoreapp2.0\ConjuctorAPI.runtimeconfig.dev.json
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\bin\Debug\netcoreapp2.0\ConjuctorAPI.dll
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\bin\Debug\netcoreapp2.0\ConjuctorAPI.pdb
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\obj\Debug\netcoreapp2.0\ConjuctorAPI.csproj.CoreCompileInputs.cache
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\obj\Debug\netcoreapp2.0\ConjuctorAPI.AssemblyInfoInputs.cache
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\obj\Debug\netcoreapp2.0\ConjuctorAPI.AssemblyInfo.cs
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\obj\Debug\netcoreapp2.0\ConjuctorAPI.dll
+e:\Development\C#\ConjuctorAPI\word-conjuctor-api\obj\Debug\netcoreapp2.0\ConjuctorAPI.pdb

@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using ConjuctorAPI.Models;
 using ConjuctorAPI.Models.Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace ConjuctorAPI.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("*")]
     public class ConjuctionController : Controller
     {
         private readonly IConjuctionRepository _conjuctionRepository;

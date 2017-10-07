@@ -1,0 +1,8 @@
+e:\Development\C#\ConjuctorAPI\bin\Debug\netcoreapp1.1\ConjuctorAPI.deps.json
+e:\Development\C#\ConjuctorAPI\bin\Debug\netcoreapp1.1\ConjuctorAPI.runtimeconfig.json
+e:\Development\C#\ConjuctorAPI\bin\Debug\netcoreapp1.1\ConjuctorAPI.runtimeconfig.dev.json
+e:\Development\C#\ConjuctorAPI\bin\Debug\netcoreapp1.1\ConjuctorAPI.dll
+e:\Development\C#\ConjuctorAPI\bin\Debug\netcoreapp1.1\ConjuctorAPI.pdb
+e:\Development\C#\ConjuctorAPI\obj\Debug\netcoreapp1.1\ConjuctorAPI.AssemblyInfo.cs
+e:\Development\C#\ConjuctorAPI\obj\Debug\netcoreapp1.1\ConjuctorAPI.dll
+e:\Development\C#\ConjuctorAPI\obj\Debug\netcoreapp1.1\ConjuctorAPI.pdb

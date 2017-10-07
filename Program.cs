@@ -15,10 +15,10 @@ namespace ConjuctorAPI
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseContentRoot(AppDomain.CurrentDomain.BaseDirectory)
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseUrls("http://*:5000")
+                .UseUrls()
                 .Build();
 
             host.Run();

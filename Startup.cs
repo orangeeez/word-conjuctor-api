@@ -31,6 +31,15 @@ namespace ConjuctorAPI
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            services.AddCors(options =>
+            {
+                options.AddPolicy("ConjuctionPolicy",
+                    builder => builder
+                    .AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
             services.AddMvc();
             services.Configure<Settings>(options =>
             {

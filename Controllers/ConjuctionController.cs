@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 namespace ConjuctorAPI.Controllers
 {
     [Route("api/[controller]")]
-    [EnableCors("*")]
+    [EnableCors("ConjuctionPolicy")]
     public class ConjuctionController : Controller
     {
         private readonly IConjuctionRepository _conjuctionRepository;

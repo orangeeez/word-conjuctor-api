@@ -12861,11 +12861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Development\\C#\\ConjuctorAPI\\word-conjuctor-api\\ConjuctorAPI.csproj",
+      "projectUniqueName": "e:\\Development\\C#\\ConjuctorAPI\\word-conjuctor-api\\ConjuctorAPI.csproj",
       "projectName": "ConjuctorAPI",
-      "projectPath": "E:\\Development\\C#\\ConjuctorAPI\\word-conjuctor-api\\ConjuctorAPI.csproj",
+      "projectPath": "e:\\Development\\C#\\ConjuctorAPI\\word-conjuctor-api\\ConjuctorAPI.csproj",
       "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "E:\\Development\\C#\\ConjuctorAPI\\word-conjuctor-api\\obj\\",
+      "outputPath": "e:\\Development\\C#\\ConjuctorAPI\\word-conjuctor-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -18,7 +18,7 @@ namespace ConjuctorAPI
                 .UseContentRoot(AppDomain.CurrentDomain.BaseDirectory)
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseUrls("http://*:5000")
+                .UseUrls("http://*:80")
                 .Build();
 
             host.Run();

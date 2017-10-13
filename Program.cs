@@ -15,6 +15,7 @@ namespace ConjuctorAPI
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
+                // .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseContentRoot(AppDomain.CurrentDomain.BaseDirectory)
                 .UseIISIntegration()
                 .UseStartup<Startup>()

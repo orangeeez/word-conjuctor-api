@@ -26,10 +26,17 @@ namespace ConjuctorAPI.Controllers
             return JsonConvert.SerializeObject(conjuctions);
         }
         
-        [HttpGet("{id}")]
-        public async Task<string> Get(string id)
+        [HttpGet("[action]/{id}")]
+        public async Task<string> GetWord(string id)
         {
-            var conjuction = await _conjuctionRepository.GetConjuction(id);
+            var conjuction = await _conjuctionRepository.GetConjuction(id, "word");
+            return JsonConvert.SerializeObject(conjuction);
+        }
+
+        [HttpGet("[action]/{id}")]
+        public async Task<string> GetAll(string id)
+        {
+            var conjuction = await _conjuctionRepository.GetConjuction(id, "all");
             return JsonConvert.SerializeObject(conjuction);
         }
 

@@ -29,7 +29,7 @@ namespace ConjuctorAPI.Models.Repositories
             return await _context.Conjuctions.Find(_ => true).ToListAsync();
         }
 
-        public async Task<List<string>> GetConjuction(string verb)
+        public async Task<List<string>> GetConjuction(string verb, string method)
         {
             var filter = Builders<Conjuction>.Filter.Eq("Verb", verb);            
             var responseVerb = _client.GetAsync(_verbURL + _verbixAPI + "eng/" + verb).Result;
@@ -58,12 +58,12 @@ namespace ConjuctorAPI.Models.Repositories
                             Task<string> resultConjuction =  contentConjuction.ReadAsStringAsync();
                             conjuction = JsonConvert.DeserializeObject<Conjuction>(resultConjuction.Result);
                             await this.AddConjuction(conjuction);
-                            return ConjuctionUtils.GetFormsFromConjuction(conjuction);
+                            return ConjuctionUtils.GetFormsFromConjuction(conjuction, method);
                         }
                     }
                     // WORD EXISTS IN MONGO DB
                     else 
-                        return ConjuctionUtils.GetFormsFromConjuction(conjuction);
+                        return ConjuctionUtils.GetFormsFromConjuction(conjuction, method);
                 }
             }
         }

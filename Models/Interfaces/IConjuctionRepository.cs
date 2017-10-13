@@ -7,7 +7,7 @@ namespace ConjuctorAPI.Models.Interfaces
     public interface IConjuctionRepository
     {
         Task<IEnumerable<Conjuction>> GetAllConjuctions();
-        Task<List<string>> GetConjuction(string verb);
+        Task<List<string>> GetConjuction(string verb, string method);
         Task AddConjuction(Conjuction item);
         Task<DeleteResult> RemoveConjuction(string id);
         // Task<UpdateResult> UpdateConjuction(string id, string body);
